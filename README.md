@@ -38,3 +38,18 @@ datasets
 pillow  
 
 See requirements.txt for details.  
+
+### proper reproducable steps
+
+The results can be fully reproduced by directly running the provided notebook in the original Kaggle competition environment. For reproduction in Google Colab or other local environments, users may need to modify the dataset loading paths to match their own directory structure. For fully offline reproduction without internet access, locate the cell titled “Local offline model loading version” in the notebook, uncomment the following two lines:  
+  
+LOCAL_MODEL_PATH = "your path"  
+MODEL_ID = LOCAL_MODEL_PATH  
+  
+and replace "your path" with the local path to the downloaded base model. The base model download link is provided above in the README.  
+
+
+
+
+
+
